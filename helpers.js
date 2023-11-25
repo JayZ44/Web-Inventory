@@ -13,7 +13,7 @@ apiData.then((gameData) => {
   const min = 0;
   const max = gameData.length - 1;
   const gamesArr = document.querySelector(".games");
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 3; i++) {
     const gameIndex = Math.round(Math.random() * (max - min + 1) + min);
 
     gamesArr.innerHTML += `<li>
