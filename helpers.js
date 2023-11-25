@@ -18,8 +18,8 @@ apiData.then((gameData) => {
 
     gamesArr.innerHTML += `<li>
         <a href="${gameData[gameIndex].game_url}" target="_blank">
-      <img src="${gameData[gameIndex].thumbnail}" alt="${gameData[gameIndex].title}"/>
-      <p class="cardTitle">Title : ${gameData[gameIndex].title}</p>
+        <p class="cardTitle">Title : ${gameData[gameIndex].title}</p>
+        <img src="${gameData[gameIndex].thumbnail}" alt="${gameData[gameIndex].title}"/>
       <p>Genre : ${gameData[gameIndex].genre}</p>
       <p>Platform : ${gameData[gameIndex].platform}</p>
       <p>Publisher : ${gameData[gameIndex].publisher}</p>

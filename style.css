@@ -1,5 +1,6 @@
 body {
   background-color: rgb(102, 95, 125);
+  margin-top: 40px;
 }
 
 h1 {
@@ -14,12 +15,12 @@ li {
   background-color: rgb(57, 49, 82);
   list-style: none;
   border: solid #a199bd;
+  width: 75%;
 }
 
 /* On mouse-over, add a deeper shadow */
 li:hover {
   box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.5);
-  scale: 1.02;
 }
 
 /* Add some padding inside the card container */
@@ -42,7 +43,7 @@ li a {
 }
 
 li p {
-  margin: 0px 10px;
+  margin: 10px;
 }
 
 li img {
@@ -70,7 +71,34 @@ li img {
 }
 
 main {
+  margin-top: 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 10px;
+}
+
+input {
+  height: 10;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.banner {
+  background-color: #333; /* Choose your desired background color */
+  color: #fff; /* Choose your desired text color */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.banner p {
+  font-size: xx-large;
+}
+
+form {
+  margin-top: 20px;
 }
